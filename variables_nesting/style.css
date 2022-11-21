@@ -1,0 +1,21 @@
+body {
+  border: 1px solid red;
+  text-align: center;
+}
+body h1 {
+  color: green;
+  text-decoration: underline blue;
+  text-underline-position: under left;
+}
+body section {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  margin: 2%;
+}
+body article {
+  border: 1px solid green;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */
