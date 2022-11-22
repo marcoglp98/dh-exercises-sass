@@ -1,0 +1,42 @@
+body {
+  border: 0.0625rem solid red;
+  text-align: center;
+}
+body h1, body h2 {
+  color: green;
+  text-decoration: underline;
+  text-underline-position: under left;
+  text-decoration-color: blue;
+}
+body h2 {
+  padding: 1rem;
+  border: 1px solid red;
+  text-decoration: none;
+  margin-inline: 20%;
+}
+body section {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  margin: 2%;
+}
+body article:nth-child(odd) {
+  color: blue;
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  padding: 2%;
+}
+body article:nth-child(even) {
+  color: red;
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  padding: 2%;
+}
+body section:last-child article:last-child {
+  color: green;
+  font-size: 1.5rem;
+  border: 0.0625rem solid blue;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */
