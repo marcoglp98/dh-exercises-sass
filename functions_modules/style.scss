@@ -1,0 +1,41 @@
+@function rem($value) {
+    $calc: ($value / 16) + rem; 
+    @return $calc;
+}
+
+
+@mixin article-card($color, $border-color, $font-size: rem(16)) {
+    color: $color;
+    font-size: $font-size;
+    border: rem(1) solid $border-color;
+    padding: 2%;
+  }
+  
+  body {
+    border: rem(1) solid red;
+    text-align: center;
+    & h1 {
+      color: green;
+      text-decoration: underline;
+      text-underline-position: under left;
+      text-decoration-color: blue;
+    }
+    & section {
+      display: flex;
+      flex-direction: row;
+      padding: 2%;
+      margin: 2%;
+    }
+    & article:nth-child(odd) {
+      @include article-card(blue, green);
+    }
+    & article:nth-child(even) {
+      @include article-card(red, green);
+    }
+    & section:last-child {
+      & article:last-child {
+        @include article-card(green, blue, rem(24));
+      }
+    }
+  }
+  
