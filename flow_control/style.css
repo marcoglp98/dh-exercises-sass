@@ -1,0 +1,304 @@
+body {
+  border: 0.0625rem solid red;
+  text-align: center;
+}
+body h1, body h2 {
+  color: green;
+  text-decoration: underline;
+  text-underline-position: under left;
+  text-decoration-color: blue;
+}
+body h2 {
+  padding: 1rem;
+  border: 1px solid red;
+  text-decoration: none;
+  margin-inline: 20%;
+}
+body section {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  margin: 2%;
+}
+body article:nth-child(odd) {
+  color: blue;
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  padding: 2%;
+}
+body article:nth-child(even) {
+  color: red;
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  padding: 2%;
+}
+body section:last-child article:last-child {
+  color: green;
+  font-size: 1.5rem;
+  border: 0.0625rem solid blue;
+  padding: 2%;
+}
+body .squares {
+  display: flex;
+  flex-direction: row;
+}
+body .fs-1rem {
+  font-size: 1rem;
+  display: flex;
+  width: 3.3rem;
+  height: 3rem;
+  color: black;
+  background-color: white;
+  border: 1px solid red;
+  margin: 0.85rem;
+}
+body .fs-1rem:nth-child(1) {
+  color: hsl(0, 0%, calc(0% + 1* 5%));
+  background-color: hsl(0, 0%, calc(100% - 1* 5%));
+}
+body .fs-2rem:nth-child(2) {
+  color: hsl(0, 0%, calc(0% + 2* 5%));
+  background-color: hsl(0, 0%, calc(100% - 2* 5%));
+}
+body .fs-3rem:nth-child(3) {
+  color: hsl(0, 0%, calc(0% + 3* 5%));
+  background-color: hsl(0, 0%, calc(100% - 3* 5%));
+}
+body .fs-1rem:nth-child(4) {
+  color: hsl(0, 0%, calc(0% + 4* 5%));
+  background-color: hsl(0, 0%, calc(100% - 4* 5%));
+}
+body .fs-2rem:nth-child(5) {
+  color: hsl(0, 0%, calc(0% + 5* 5%));
+  background-color: hsl(0, 0%, calc(100% - 5* 5%));
+}
+body .fs-3rem:nth-child(6) {
+  color: hsl(0, 0%, calc(0% + 6* 5%));
+  background-color: hsl(0, 0%, calc(100% - 6* 5%));
+}
+body .fs-2rem:nth-child(7) {
+  color: hsl(0, 0%, calc(0% + 7* 5%));
+  background-color: hsl(0, 0%, calc(100% - 7* 5%));
+}
+body .fs-1rem:nth-child(8) {
+  color: hsl(0, 0%, calc(0% + 8* 5%));
+  background-color: hsl(0, 0%, calc(100% - 8* 5%));
+}
+body .fs-3rem:nth-child(9) {
+  color: hsl(0, 0%, calc(0% + 9* 5%));
+  background-color: hsl(0, 0%, calc(100% - 9* 5%));
+}
+body .fs-2rem:nth-child(10) {
+  color: red;
+  background-color: blue;
+}
+body .fs-1rem:nth-child(11) {
+  color: hsl(0, 0%, calc(0% + 11* 5%));
+  background-color: hsl(0, 0%, calc(100% - 11* 5%));
+}
+body .fs-3rem:nth-child(12) {
+  color: hsl(0, 0%, calc(0% + 12* 5%));
+  background-color: hsl(0, 0%, calc(100% - 12* 5%));
+}
+body .fs-2rem:nth-child(13) {
+  color: hsl(0, 0%, calc(0% + 13* 5%));
+  background-color: hsl(0, 0%, calc(100% - 13* 5%));
+}
+body .fs-1rem:nth-child(14) {
+  color: hsl(0, 0%, calc(0% + 14* 5%));
+  background-color: hsl(0, 0%, calc(100% - 14* 5%));
+}
+body .fs-3rem:nth-child(15) {
+  color: hsl(0, 0%, calc(0% + 15* 5%));
+  background-color: hsl(0, 0%, calc(100% - 15* 5%));
+}
+body .fs-2rem:nth-child(16) {
+  color: hsl(0, 0%, calc(0% + 16* 5%));
+  background-color: hsl(0, 0%, calc(100% - 16* 5%));
+}
+body .fs-1rem:nth-child(17) {
+  color: hsl(0, 0%, calc(0% + 17* 5%));
+  background-color: hsl(0, 0%, calc(100% - 17* 5%));
+}
+body .fs-3rem:nth-child(18) {
+  color: hsl(0, 0%, calc(0% + 18* 5%));
+  background-color: hsl(0, 0%, calc(100% - 18* 5%));
+}
+body .fs-2rem:nth-child(19) {
+  color: hsl(0, 0%, calc(0% + 19* 5%));
+  background-color: hsl(0, 0%, calc(100% - 19* 5%));
+}
+body .fs-2rem {
+  font-size: 2rem;
+  display: flex;
+  width: 3.3rem;
+  height: 3rem;
+  color: black;
+  background-color: white;
+  border: 1px solid red;
+  margin: 0.85rem;
+}
+body .fs-1rem:nth-child(1) {
+  color: hsl(0, 0%, calc(0% + 1* 5%));
+  background-color: hsl(0, 0%, calc(100% - 1* 5%));
+}
+body .fs-2rem:nth-child(2) {
+  color: hsl(0, 0%, calc(0% + 2* 5%));
+  background-color: hsl(0, 0%, calc(100% - 2* 5%));
+}
+body .fs-3rem:nth-child(3) {
+  color: hsl(0, 0%, calc(0% + 3* 5%));
+  background-color: hsl(0, 0%, calc(100% - 3* 5%));
+}
+body .fs-1rem:nth-child(4) {
+  color: hsl(0, 0%, calc(0% + 4* 5%));
+  background-color: hsl(0, 0%, calc(100% - 4* 5%));
+}
+body .fs-2rem:nth-child(5) {
+  color: hsl(0, 0%, calc(0% + 5* 5%));
+  background-color: hsl(0, 0%, calc(100% - 5* 5%));
+}
+body .fs-3rem:nth-child(6) {
+  color: hsl(0, 0%, calc(0% + 6* 5%));
+  background-color: hsl(0, 0%, calc(100% - 6* 5%));
+}
+body .fs-2rem:nth-child(7) {
+  color: hsl(0, 0%, calc(0% + 7* 5%));
+  background-color: hsl(0, 0%, calc(100% - 7* 5%));
+}
+body .fs-1rem:nth-child(8) {
+  color: hsl(0, 0%, calc(0% + 8* 5%));
+  background-color: hsl(0, 0%, calc(100% - 8* 5%));
+}
+body .fs-3rem:nth-child(9) {
+  color: hsl(0, 0%, calc(0% + 9* 5%));
+  background-color: hsl(0, 0%, calc(100% - 9* 5%));
+}
+body .fs-2rem:nth-child(10) {
+  color: red;
+  background-color: blue;
+}
+body .fs-1rem:nth-child(11) {
+  color: hsl(0, 0%, calc(0% + 11* 5%));
+  background-color: hsl(0, 0%, calc(100% - 11* 5%));
+}
+body .fs-3rem:nth-child(12) {
+  color: hsl(0, 0%, calc(0% + 12* 5%));
+  background-color: hsl(0, 0%, calc(100% - 12* 5%));
+}
+body .fs-2rem:nth-child(13) {
+  color: hsl(0, 0%, calc(0% + 13* 5%));
+  background-color: hsl(0, 0%, calc(100% - 13* 5%));
+}
+body .fs-1rem:nth-child(14) {
+  color: hsl(0, 0%, calc(0% + 14* 5%));
+  background-color: hsl(0, 0%, calc(100% - 14* 5%));
+}
+body .fs-3rem:nth-child(15) {
+  color: hsl(0, 0%, calc(0% + 15* 5%));
+  background-color: hsl(0, 0%, calc(100% - 15* 5%));
+}
+body .fs-2rem:nth-child(16) {
+  color: hsl(0, 0%, calc(0% + 16* 5%));
+  background-color: hsl(0, 0%, calc(100% - 16* 5%));
+}
+body .fs-1rem:nth-child(17) {
+  color: hsl(0, 0%, calc(0% + 17* 5%));
+  background-color: hsl(0, 0%, calc(100% - 17* 5%));
+}
+body .fs-3rem:nth-child(18) {
+  color: hsl(0, 0%, calc(0% + 18* 5%));
+  background-color: hsl(0, 0%, calc(100% - 18* 5%));
+}
+body .fs-2rem:nth-child(19) {
+  color: hsl(0, 0%, calc(0% + 19* 5%));
+  background-color: hsl(0, 0%, calc(100% - 19* 5%));
+}
+body .fs-3rem {
+  font-size: 3rem;
+  display: flex;
+  width: 3.3rem;
+  height: 3rem;
+  color: black;
+  background-color: white;
+  border: 1px solid red;
+  margin: 0.85rem;
+}
+body .fs-1rem:nth-child(1) {
+  color: hsl(0, 0%, calc(0% + 1* 5%));
+  background-color: hsl(0, 0%, calc(100% - 1* 5%));
+}
+body .fs-2rem:nth-child(2) {
+  color: hsl(0, 0%, calc(0% + 2* 5%));
+  background-color: hsl(0, 0%, calc(100% - 2* 5%));
+}
+body .fs-3rem:nth-child(3) {
+  color: hsl(0, 0%, calc(0% + 3* 5%));
+  background-color: hsl(0, 0%, calc(100% - 3* 5%));
+}
+body .fs-1rem:nth-child(4) {
+  color: hsl(0, 0%, calc(0% + 4* 5%));
+  background-color: hsl(0, 0%, calc(100% - 4* 5%));
+}
+body .fs-2rem:nth-child(5) {
+  color: hsl(0, 0%, calc(0% + 5* 5%));
+  background-color: hsl(0, 0%, calc(100% - 5* 5%));
+}
+body .fs-3rem:nth-child(6) {
+  color: hsl(0, 0%, calc(0% + 6* 5%));
+  background-color: hsl(0, 0%, calc(100% - 6* 5%));
+}
+body .fs-2rem:nth-child(7) {
+  color: hsl(0, 0%, calc(0% + 7* 5%));
+  background-color: hsl(0, 0%, calc(100% - 7* 5%));
+}
+body .fs-1rem:nth-child(8) {
+  color: hsl(0, 0%, calc(0% + 8* 5%));
+  background-color: hsl(0, 0%, calc(100% - 8* 5%));
+}
+body .fs-3rem:nth-child(9) {
+  color: hsl(0, 0%, calc(0% + 9* 5%));
+  background-color: hsl(0, 0%, calc(100% - 9* 5%));
+}
+body .fs-2rem:nth-child(10) {
+  color: red;
+  background-color: blue;
+}
+body .fs-1rem:nth-child(11) {
+  color: hsl(0, 0%, calc(0% + 11* 5%));
+  background-color: hsl(0, 0%, calc(100% - 11* 5%));
+}
+body .fs-3rem:nth-child(12) {
+  color: hsl(0, 0%, calc(0% + 12* 5%));
+  background-color: hsl(0, 0%, calc(100% - 12* 5%));
+}
+body .fs-2rem:nth-child(13) {
+  color: hsl(0, 0%, calc(0% + 13* 5%));
+  background-color: hsl(0, 0%, calc(100% - 13* 5%));
+}
+body .fs-1rem:nth-child(14) {
+  color: hsl(0, 0%, calc(0% + 14* 5%));
+  background-color: hsl(0, 0%, calc(100% - 14* 5%));
+}
+body .fs-3rem:nth-child(15) {
+  color: hsl(0, 0%, calc(0% + 15* 5%));
+  background-color: hsl(0, 0%, calc(100% - 15* 5%));
+}
+body .fs-2rem:nth-child(16) {
+  color: hsl(0, 0%, calc(0% + 16* 5%));
+  background-color: hsl(0, 0%, calc(100% - 16* 5%));
+}
+body .fs-1rem:nth-child(17) {
+  color: hsl(0, 0%, calc(0% + 17* 5%));
+  background-color: hsl(0, 0%, calc(100% - 17* 5%));
+}
+body .fs-3rem:nth-child(18) {
+  color: hsl(0, 0%, calc(0% + 18* 5%));
+  background-color: hsl(0, 0%, calc(100% - 18* 5%));
+}
+body .fs-2rem:nth-child(19) {
+  color: hsl(0, 0%, calc(0% + 19* 5%));
+  background-color: hsl(0, 0%, calc(100% - 19* 5%));
+}
+
+/*# sourceMappingURL=style.css.map */
